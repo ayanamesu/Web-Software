@@ -1,17 +1,30 @@
-<nav>
-    <div class="logo">
+
+
+<div class="bar">
+    <nav>
         <a href="/">
-        <img src="public/images/show.webp" alt="NavBar Logo">
+            <img src="public/images/show.webp" class="logo">
         </a>
-    </div>
-  <div class="search">
-    <form action="/search" method="GET"> <!-- Specify the action and method -->
-      <input type="text" placeholder="Search..." name="q">
-      <button type="submit">Go</button>
-    </form>
-  </div>
-  <ul class="menu">
-    <li><a href="/postimage">postimage</a></li>
-    <li><a href="/login">Login</a></li>
-  </ul>
-</nav>
+        {{!-- <form action="/search" method="GET"> <!-- Specify the action and method -->
+            <input type="text" placeholder="Search..." class="search">
+            <button type="submit">Go</button>
+        </form> --}}
+        <ul>
+            <li><a href="/postimage">postimage</a></li>
+            <li><a href="/login">Login</a></li>
+        </ul>
+            <img src="public/images/moon.png" id="icon"> 
+    </nav>
+</div>
+<script>
+    var icon = document.getElementById("icon");
+    icon.onclick = function() {
+        document.body.classList.toggle("dark-theme");
+            if(document.body.classList.contains("dark-theme")){
+                icon.src="public/images/sun.png";
+            } else{
+                icon.src="public/images/moon.png";
+            }
+    }
+    
+</script>
