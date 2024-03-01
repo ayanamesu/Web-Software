@@ -1,5 +1,5 @@
 # Personal Portfolio website
-![portfolio](https://github.com/ayanamesu/Web-Software/assets/81396481/df01780e-a3c2-4d9f-8c47-e811cd01eb92)
+![portfolio](https://github.com/ayanamesu/Web-Software/assets/81396481/3f8e4642-b9a1-4a43-b7b3-dd8804659ab6)
 ## Purpose
 
 Started off as a school term-project a few years back. After finished with the course I found out that I had lost 90% of the work and regret not downloading the repo. So here I am remaking a new and better website my own PORTFOLIO of all my works as a CS student. This website is meant for "fun".
