@@ -21,4 +21,23 @@ router.get("/postimage", function(req, res) {
 router.get("/post", function(req, res) {
   res.render('viewpost', {js: ["viewpost.js"]});
 });
+
+router.get('/search', function(req, res) {
+  // Extract the search query from the request parameters
+  var query = req.query.q;
+
+  // Based on the query, redirect to the appropriate page
+  if (query === 'login') {
+    res.redirect('/login');
+  } else if (query === 'register') {
+    res.redirect('/register');
+  } else if (query === 'postimage') {
+    res.redirect('/postimage');
+  } else if (query === 'post') {
+    res.redirect('/post');
+  } else {
+    // Handle other search queries or display a default search page
+    res.render('search', { query: query });
+  }
+});
 module.exports = router;

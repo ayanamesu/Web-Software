@@ -1,13 +1,17 @@
-<div class="title">
-                    <h1> Index Page </h1>
-                </div>
-                <!-- <div class="navi"> -->
-                    <nav>
-                        <ul>
-                            <li><a href="/">Index Page</a></li>
-                            <li><a href="/login">Login</a></li>
-                            <li><a href="/postimage">postimage</a></li>
-                            <li><a href="/register">registration</a></li>
-                            <li><a href="/post">viewpost</a></li>
-                        </ul>
-                    </nav>
+<nav>
+    <div class="logo">
+        <a href="/">
+        <img src="public/images/show.webp" alt="NavBar Logo">
+        </a>
+    </div>
+  <div class="search">
+    <form action="/search" method="GET"> <!-- Specify the action and method -->
+      <input type="text" placeholder="Search..." name="q">
+      <button type="submit">Go</button>
+    </form>
+  </div>
+  <ul class="menu">
+    <li><a href="/postimage">postimage</a></li>
+    <li><a href="/login">Login</a></li>
+  </ul>
+</nav>
