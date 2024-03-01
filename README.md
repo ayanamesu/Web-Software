@@ -1,4 +1,4 @@
-# Web-Software continued Individual project that started as a class assignment
+# Personal Portfolio website
 
 ## Purpose
 
