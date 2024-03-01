@@ -197,7 +197,7 @@ footer {
   padding: 10px;
 }
 /*------------------------------------------------------------- Index end -------------------------------------------- */
-input {
+/* input {
   width: 100%;
   padding: 20px;
   border: 1px solid black;
@@ -231,19 +231,97 @@ input[type="submit"]:hover{
   background-color: gray;
   padding: 50px;
   text-align: center;
-}
+} */
 
 
 /*------------------------------------------------------------- START OF Login -------------------------------------------- */
-.Login {
-  width: 400px;
-  margin: 0 auto;
-  background-color: gray;
-  padding: 50px;
+.Login-box{
+  background: lightgray;
+  padding: 30px 120px;
+  width: 550px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
   text-align: center;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.Login-box a{
+  text-decoration: none;
+}
+.logo-icons{
+  width: 190px;
+  margin-bottom: 5px;
+}
+.Login-box h2{
+  margin-bottom: 20px;
 }
 
+.Login-box button img{
+  width: 18px;
+  margin-right: 10px;
+}
+.Login-box button{
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  border-radius: 30px;
+  background: transparent;
+  border: 1px solid #999;
+  font-weight: 500;
+  cursor: pointer;
+}
+.Login-box hr{
+  border: 0;
+  height: 1px;
+  background: #c2c2c2;
+  margin: 5px;
+}
+.Login-box span{
+  display: block;
+  width: 40px;
+  margin: auto;
+  background: lightgray;
+  font-size: 18px;
+  margin-top: -16px;
+}
 
+.Login-box input{
+  width: 100%;
+  padding: 15px 10px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  outline: 0;
+  box-sizing: border-box;
+  margin: 10px 0;
+  background: transparent;
+}
+::placeholder{
+  font-weight: 500;
+  color: black;
+}
+.Login-box form button{
+  background: black;
+  color: #fff;
+  border: 0;
+  margin-bottom: 15px;
+}
+.Login-box p{
+  text-align: left;
+  font-size: 18px;
+  color: #555;
+  margin: 40px 0 50px;
+}
+
+.Login-box p #signup-link{
+  text-decoration: none;
+  color: #359cf0;
+}
+/*
 .registration {
   width: 400px;
   margin: 0 auto;
@@ -274,9 +352,9 @@ input[type="checkbox"] {
   position: relative;
   cursor: pointer;
   width: 20px;
-}
+} */
 
-.postimage {
+/* .postimage {
   width: 400px;
   margin: 0 auto;
   background-color: gray;
@@ -342,9 +420,9 @@ img#pyramid {
   justify-content: space-evenly;
   justify-items: center;
   align-content: space-evenly;
-}
+} */
 
-.fade-in {
+/* .fade-in {
   animation: fadeIn ease 2s;
 
 }
@@ -356,10 +434,10 @@ img#pyramid {
   100% {
     opacity: 1;
   }
-}
+} */
 /* this causes the webpage to fadeout then come back but when clicked individually they do fade out */
 
-.fade-out {
+/* .fade-out {
   animation: fadeOut ease 2s;
 }
 
@@ -370,4 +448,4 @@ img#pyramid {
   100% {
     opacity: 0;
   }
-} 
+}  */

@@ -1,30 +1,22 @@
-                <!-- </div> -->
-            <div class="Login">
-            <header>
-                    <h1> Login Form</h1>
-            </header>
-
-
-            
-          
-                <form id="Login-form" class="input-form" action="/users/login" method="POST" enctype="application/x-www-form-urlencoded">
-                   
-                        <label for="Username">Username:</label>
-                        <input type="text" name="username" id="Lusername" placeholder="Username"> <br />
- 
-                        <br />
- 
-                        <label for="Password">Password:</label>
-                        <input type="password" name="password" id="Lpassword" placeholder="Password">
-                        <input type="Submit" value="Submit">
-                
+<body>
+        <div class="Login-box">
+                <img src="public/images/menhera.png" class="logo-icons">
+                <h2>Sign in</h2>
+                <a href="https://accounts.google.com/v3/signin/identifier?hl=en_GB&ifkv=ATuJsjzpPt-p57vZWS8RBEa7yGhnne0MXSnFmESdsqJfePF6s0xc5c3aepwtw7tOP_3gXKShhSJ-&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-133765398%3A1709293546067016&theme=glif">
+                <button><img src="public/images/google.png">Sign in with Google</button>
+                </a>
+                <a href="https://github.com/login">
+                <button><img src="public/images/github.png">Sign in to GitHub</button>
+                </a>
+                <hr>
+                <span>Or</span>
+                <form action="/post" method="GET">
+                        <input type="text" placeholder="Phone, email or username">
+                        <button type="submit">Next  ;)</button>
                 </form>
-                <div id="make-account">
-                    Do not have an account?
-                    <a id="reg" href="/register"> Register Here!</a>
-                </div>
-        
-                <br />
-           
+                <button>Forgot password?</button>
+                <p>Don't have an account? <a id="signup-link" href="/register">Sign up</a></p>
+            
            
         </div>
+</body>

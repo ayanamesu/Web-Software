@@ -22,5 +22,10 @@ router.get("/post", function(req, res) {
   res.render('viewpost', {js: ["viewpost.js"]});
 });
 
-
+router.get("/portfolio", function(req, res) {
+  res.render('portfolio', {js: ["portfolio.js"]});
+});
+router.get("/about", function(req, res) {
+  res.render('about', {js: ["about.js"]});
+});
 module.exports = router;
