@@ -2,7 +2,9 @@
 ![portfolio](https://github.com/ayanamesu/Web-Software/assets/81396481/df01780e-a3c2-4d9f-8c47-e811cd01eb92)
 ## Purpose
 
-The purpose of this repository is to store all the code for your web application. This also includes the history of all commits made and who made them.
+Started off as a school term-project a few years back. After finished with the course I found out that I had lost 90% of the work and regret not downloading the repo. So here I am remaking a new and better website my own PORTFOLIO of all my works as a CS student. This website is for "fun".
+
+Note majority of the images are not owned by me.
 
 Please follow the instructions below 
 
