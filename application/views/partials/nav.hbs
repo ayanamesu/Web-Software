@@ -1,38 +1,13 @@
-  
+<div class="title">
+                    <h1> Index Page </h1>
+                </div>
                 <!-- <div class="navi"> -->
-                    <nav class="navbar">
-                        <img class="picture-logo" src="https://media.discordapp.net/attachments/973529491437662228/1047431144297209906/AYAKA.png?width=1440&height=480">
-                        <ul class="nav-list" id="navi-list">
-                            <li class="list-item"><a href="/">Index Page</a></li>
-                            <!--<li><a href="/login">Login</a></li> -->
+                    <nav>
+                        <ul>
+                            <li><a href="/">Index Page</a></li>
+                            <li><a href="/login">Login</a></li>
                             <li><a href="/postimage">postimage</a></li>
                             <li><a href="/register">registration</a></li>
                             <li><a href="/post">viewpost</a></li>
-                            {{#if isLoggedIn}}
-                            <li>
-                                <a id="logout-button" class="nav-items">Log out</a>
-                                
-                            </li>
-                            {{else}}
-                            <li>
-                                <a href="/login" id="authenticate-button" class="nav-items"> Log in</a>
-                                
-                            </li>
-                            {{/if}}
                         </ul>
-
-                        <div class="menu" id="toggle-button">
-                            <div class="menu-line"></div>
-                            <div class="menu-line"></div>
-                            <div class="menu-line"></div>
-                        </div>
                     </nav>
-
-
-            <script>
-                const toggleButton = document.getElementById('toggle-button');
-                const naviList = document.getElementById('navi-list');
-                toggleButton.addEventListener('click', => {
-                    naviList.classList.toggle('active');
-                })
-            </script>

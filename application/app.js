@@ -34,6 +34,7 @@ app.use(cookieParser());
 app.use(favicon(__dirname + '/public/favicon.ico'));
 app.use("/public", express.static(path.join(__dirname, "public")));
 
+//localhost:3000/
 app.use("/", indexRouter); // route middleware from ./routes/index.js
 app.use("/users", usersRouter); // route middleware from ./routes/users.js
 

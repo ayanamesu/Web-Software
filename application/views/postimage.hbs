@@ -1,18 +1,16 @@
-        <div class="postimage">
-        <header class="headtitle">
+   <div class="postimage">
         <h1> Post Image</h1>
-        </header>
-        <form id="post-image" action="/posts/create" method="post" enctype="multipart/form-data">
+
+        <form>
             <label for="text">Title: </label> 
-            <input type="text" name="title" id="Title"> <br />
+            <input type="text" name="Title" id="Title"> <br />
             <label for="description"> Description: </label>
-            <input type="text" name="description" id="Description"> <br />
+            <input type="text" name="Description" id="Description"> <br />
             <label for="image">Image(s): </label>
-            <input type="file" name="uploadImage" id="image" accept="image/*"> <br />
-            <label for="text" class="AUP"> Acceptable Use Policy for uploading images.</label>
+            <input type="file" name="image" id="image" accept="image/*"> <br />
+            <label for="text"> Acceptabele Use Policy for uploading images.</label>
             <input type="checkbox" name="Tos" id="Tos" value="Tos"> <br />
             <input type="submit" value="Submit image">
 
         </form>
     </div>
-   

@@ -1,20 +1,21 @@
-            <!-- </div> -->
+       <!-- </div> -->
 
+        <div class="registration">
+        <h1> Registration Page</h1>
+        </div>
+     
         <div class="registration2">
-            <div class="registration">
-                <h1> Registration Page</h1>
-            </div>
-        <form id=" Login" class="input-form" method="POST" action="/users/register" enctype="application/x-www-form-urlencoded"> 
+        <form id=" Login" >
             <div class="input-group">
                 <label for="usernameField "> Username:</label>
-                <input type="text" name="username" id="username" placeholder="Username Required"> <br />
+                <input type="text" name="username " id="username" placeholder="Username Required"> <br />
                 <span id="u_errormsg"></span><br><br />
                 <span id="alp_errormsg"></span><br><br />
             </div>
 
             <div class="input-group">
                 <label for="emailField"> Email:</label>
-                <input type="email" name="email" id="email" placeholder="Email Required"> <br />
+                <input type="email" name="email " id="email" placeholder="Email Required"> <br />
                 <span id="e_validation"></span><br><br />
             </div>
             
@@ -29,30 +30,26 @@
             
             <div class="input-group">
                 <label for="confirmPassword"> Confrim Password:</label>
-                <input type="password" name="cpassword" id="confirmPassword" placeholder="Confirm Password" onkeyup="pass_check()"> <br />
+                <input type="password" name=" Confirm Password" id="confirmPassword" placeholder="Confirm Password" onkeyup="pass_check()"> <br />
                 <span id="re_errormsg"></span><br><br />
             </div>
-                <label for="age?" class="AgeRes"> <strong> Required*:  Are you 13+ years of age!!!</strong></label>
+                <label for="age?"> <strong> Required*:  Are you 13+ years of age!!!</strong></label>
            
                 <input type="radio" name="check" id="Yes" value="Yes" required/>Yes
             
             
                 <input type="radio" name="check" id="No" value="No" />No
                 <br />
-
-            <div id="Tos">
-                <a class="aRemoval" href="">
-                    <label for="TOS" class="TosPR"> Terms Of Service and Privacy Rules!</label>
-                    <input type="checkbox" name="checkbox" required>
-                    
-                    <br />
-                </a>
-            </div>
-
-            <div class="buttons">
+            
+                
+ 
+            <a href="">
+                <input type="checkbox" name="checkbox" required>
+                <label for="TOS"> Terms Of Service and Privacy Rules!</label>
+                <br />
+            </a>
            <!--Checks if password and confirmPassword matches -->
-            <button type="submit" class="signupbtn" value="Submit">Sign Up</button> 
-            <button type="reset" class="resetbtn" value="Reset"> Reset</button>
-            </div>
+            <button type="submit" value="Submit">Submit</button> <br />
+            <button type="reset"  value="Reset"> Reset</button>
         </form>
         </div>
