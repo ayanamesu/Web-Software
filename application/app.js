@@ -20,7 +20,7 @@ app.engine(
     helpers: {}, //adding new helpers to handlebars for extra functionality
   })
 );
-
+//Server
 // view engine setup
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "hbs");
